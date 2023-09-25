@@ -1,0 +1,115 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header,
+nav,
+main,
+footer */
+body {
+    max-width: 800px;
+    margin: 0 auto;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+/* body {
+    font-family: "Sansita", sans-serif;
+
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+} */
+
+header,
+main,
+footer {
+    margin-top: 1rem;
+}
+
+header {
+    background-color: #bbb;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    /* align-items: center;
+    justify-content: left; */
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+h1,
+img {
+    margin: 0.5rem;
+    grid-column: auto;
+    justify-self: center;
+    align-self: center;
+}
+
+h1 {
+    font-size: 2rem;
+    grid-row: 2 / 3;
+}
+
+img {
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    grid-row: 1 / 2;
+}
+
+/* Flex Navigation Menu */
+nav {
+    background-color: #36454f;
+    /* margin: 0 auto; */
+    /* max-width: 800px; */
+}
+
+/* Set the style type of the course links list to none (do not display bullets). */
+ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border: 1px solid #fff;
+}
+
+.active {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+main h2 {
+    border-bottom: 1px solid gray;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+main section {
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: white;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+}

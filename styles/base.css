@@ -12,19 +12,9 @@ footer */
 body {
     max-width: 800px;
     margin: 0 auto;
-
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
 }
-
-/* body {
-    font-family: "Sansita", sans-serif;
-
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto;
-} */
 
 header,
 main,
@@ -32,21 +22,24 @@ footer {
     margin-top: 1rem;
 }
 
-header {
+header,
+footer {
     background-color: #bbb;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    /* align-items: center;
-    justify-content: left; */
     padding: 20px;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-h1,
 h2,
-h3 {
+h3,
+footer p {
     text-align: center;
+}
+
+/* header grid */
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
 }
 
 h1,
@@ -64,7 +57,7 @@ h1 {
 
 img {
     border: 0.5px solid gray;
-    border-radius: 10px;
+    border-radius: 5px;
     grid-row: 1 / 2;
 }
 
@@ -96,20 +89,35 @@ nav a:hover {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+/* main */
 main h2 {
     border-bottom: 1px solid gray;
+    margin: 1rem 1.5rem;
 }
 
-.card {
+/* .card {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
-}
+} */
 
 main section {
     margin: 0.5rem;
-    padding: 1rem;
     background-color: white;
     border: 0.5px solid gray;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+main section ul,
+div {
+    padding: 1rem;
+}
+
+h3 {
+    background-color: #bbb;
+    /*   margin: 0;
+    padding: 0; */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }

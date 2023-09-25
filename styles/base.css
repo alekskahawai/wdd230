@@ -108,16 +108,14 @@ main section {
     border-radius: 5px;
 }
 
-main section ul,
-div {
-    padding: 1rem;
-}
-
 h3 {
     background-color: #bbb;
-    /*   margin: 0;
-    padding: 0; */
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+}
+
+main section ul,
+div {
+    padding: 1rem;
 }

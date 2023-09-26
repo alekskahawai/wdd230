@@ -28,6 +28,10 @@
         grid-column: 1 / span 2;
     }
 
+    .card {
+        box-shadow: 0 0 30px gray;
+    }
+
     /* Flex Navigation Menu */
     nav ul {
         display: flex;

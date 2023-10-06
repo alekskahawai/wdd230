@@ -3,8 +3,8 @@ const modeButton = document.querySelector("#mode");
 const main = document.querySelector("main");
 
 modeButton.addEventListener("click", () => {
+    main.classList.toggle('dark');
     if (modeButton.textContent.includes("🌗")) {
-        mainTag.classList.toggle('dark');
         main.style.background = "#000";
         main.style.color = "#fff";
         modeButton.textContent = "☀️";

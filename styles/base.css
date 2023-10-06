@@ -16,6 +16,19 @@
     cursor: pointer;
 }
 
+main.dark section {
+    background-color: #000;
+}
+
+main.dark section h3 {
+    color: #000;
+}
+
+main.dark a {
+    color: #fff;
+}
+
+
 /* header,
 nav,
 main,

@@ -41,4 +41,19 @@
     nav ul li {
         flex: 1 1 100%;
     }
+
+    /* responsive navigation */
+    /* hide hamburger button */
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
 }

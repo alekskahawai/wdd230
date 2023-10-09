@@ -20,49 +20,13 @@
     }
 
     /* hero */
-
-    /* .hero {
-        position: relative;
-        grid-column: 1 / 5;
-        grid-row: 3 / 4;
-    } */
-
-    /* .hero article {
-        position: absolute;
-    } */
-
-    /*  .hero img {
-        display: block;
-        width: 100%;
-        height: auto;
-    } */
-
     .hero article {
-        /* top: 33%;
-        right: 0;
-        left: 0; */
         max-width: 81%;
-        /* margin: auto; */
         padding: 2rem;
-        /* text-align: center;
-        color: white;
-        font-weight: 900; */
         line-height: 4rem;
         font-size: 1.2rem;
-        /* background-color: rgb(34, 87, 122, .7); */
     }
 
-    .hero article button {
-        float: right;
-        width: 25%;
-        height: auto;
-        padding: 3%;
-        border-radius: 12px;
-    }
-
-    /* .call-to-action {
-        font-size: 1.2rem;
-    } */
 
     /* main grid */
     main {
@@ -70,10 +34,6 @@
         grid-template-columns: 2fr 1fr;
         grid-template-rows: auto;
     }
-
-    /* main h2 {
-        grid-column: 1 / span 2;
-    } */
 
     .card {
         box-shadow: 0 0 30px gray;

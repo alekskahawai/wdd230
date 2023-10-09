@@ -5,11 +5,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Riga Chamber of Commerce, Aleksius De Vollèges, BYU-Idaho WDD230, Web Frontend Development course project
+        page
+    </title>
+    <!-- meta description & author -->
+    <meta name="description"
+        content="Riga Chamber of Commerce, Aleksius De Vollèges, WDD230 Web Frontend Development, BYU-Idaho student's course project page">
+    <meta name="author" content="Aleksius De Vollèges">
+    <!-- social media meta tags -->
+    <meta property="og:title"
+        content="Riga Chamber of Commerce, Aleksius De Vollèges, Web Frontend Development course project page">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://upload.wikimedia.org/wikipedia/commons/9/9e/Riga_Wikivoyage_front_page_banner.jpg">
+    <meta property="og:url" content="https://alekskahawai.github.io/wdd230/chamber/index.html">
+    <meta property="og:description"
+        content="Riga Chamber of Commerce, Aleksius De Vollèges,BYU-Idaho student's project page, WDD230 Web Frontend Development.">
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico">
+    <!-- css -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <!-- google fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <header>
+        <h1>Riga Chamber of Commerce</h1>
+        <img src="images/logo.webp" alt="chamber of commerce logo, blue dots arouns a gloab" width="75">
+        <div class="hero">
+            <img src="images/riga-chamber-home-banner.jpg"
+                alt="panoramic view of Riga Old Town and bridge across the river Daugava">
+            <article class="call-to-action">
+                <button onclick="window.location.href='#join.html';">Join</button>
+                <p>Build business together</p>
+            </article>
+        </div>
+    </header>
+    <nav>
+        <div><button id="menu"></button></div>
+        <ul class="navigation">
+            <li class="active"><a href="#index.html">Home</a></li>
+            <li><a href="#discover.html" target="_blank">Discover</a></li>
+            <li><a href="#directory.html" target="_blank">Directory</a></li>
+            <li><a href="#join.html" target="_blank">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- <h2>WDD 230: Web Frontend Development</h2> -->
 
+        <section class="card events"> <!-- events -->
+            <h3>Current Event</h3>
+            <div>
+                <p>Placeholder</p>
+            </div>
+            <div>
+                <p>Placeholder</p>
+            </div>
+            <div>
+                <p>Placeholder</p>
+            </div>
+        </section>
+        <section class="card spotlights"> <!-- spotlights -->
+            <h3>Spotlights</h3>
+            <div>
+                <p>Placeholder</p>
+            </div>
+            <div>
+                <p>Placeholder</p>
+            </div>
+            <div>
+                <p>Placeholder</p>
+            </div>
+            <div>
+                <p>Placeholder</p>
+            </div>
+            <div>
+                <p>Placeholder</p>
+            </div>
+            <div>
+                <p>Placeholder</p>
+            </div>
+            <div>
+                <p>Placeholder</p>
+            </div>
+        </section>
+        <section class="card weather"> <!-- weather -->
+            <h3>Weather</h3>
+            <div>
+                <p>Placeholder</p>
+            </div>
+            <div>
+                <p>Placeholder</p>
+            </div>
+            <div>
+                <p>Placeholder</p>
+            </div>
+    </main>
+    <footer>
+        <p><strong>Riga Chamber of Commerce</strong></p>
+        <br>
+        <p>4 Amatu sreet, Riga</p>
+        <p>LV-1050, Latvia</p>
+        <p>+371 123456789</p>
+        <p><i>info@rcoc.lv</i></p>
+        <br>
+        <p>© <span id="year"></span> | Aleksius De Vollèges | WDD230 course project page</p>
+        <p> Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/chamber.js"></script>
 </body>
 
 </html>

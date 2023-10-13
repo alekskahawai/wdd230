@@ -253,3 +253,8 @@ main section ul,
 div {
     padding: 1rem;
 }
+
+iframe {
+    width: 100%;
+    border-radius: 5px;
+}

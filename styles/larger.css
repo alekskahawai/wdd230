@@ -37,6 +37,10 @@
         box-shadow: 0 0 30px gray;
     }
 
+    .map {
+        grid-column: 1 / span 2;
+    }
+
     /* hero */
 
     .herolabel {

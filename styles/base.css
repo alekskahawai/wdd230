@@ -258,3 +258,12 @@ iframe {
     width: 100%;
     border-radius: 5px;
 }
+
+.label {
+    font-weight: 700;
+}
+
+#visits {
+    font-weight: 900;
+    font-size: larger;
+}

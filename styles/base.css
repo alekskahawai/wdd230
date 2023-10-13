@@ -34,7 +34,7 @@ nav,
 main,
 footer */
 body {
-    max-width: 800px;
+    max-width: 960px;
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
@@ -188,6 +188,42 @@ nav div {
 }
 
 /* main */
+
+/* hero */
+.hero {
+    margin: 0 1rem 0 0;
+    padding: 0;
+    position: relative;
+}
+
+.hero picture {
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.herolabel {
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    background: radial-gradient(#fff, #bcc0cd);
+    border: 1px solid rgba(0, 0, 0, .45);
+    padding: 0.25rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+}
+
+.herolabel p {
+    margin: 0;
+    padding: 0.25rem;
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+
+
 main h2 {
     border-bottom: 1px solid gray;
     margin: 1rem 1.5rem;

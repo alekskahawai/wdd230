@@ -19,7 +19,7 @@ const today = Date.now();
 let previousVisit = Number(window.localStorage.getItem("previousVisit")) || 0;
 
 // If this is the user's first visit, display "Welcome! Let us know if you have any questions.".
-if (previousVisit === 0) {
+if (previousVisit == 0) {
     visitsDisplay.textContent = "Welcome! Let us know if you have any questions.";
 }
 

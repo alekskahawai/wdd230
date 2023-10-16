@@ -7,6 +7,10 @@ hamButton.addEventListener('click', () => {
     hamButton.classList.toggle('open');
 });
 
+// days between visits
+const visitsDisplay = document.querySelector(".visits");
+
+
 // footer 
 // current year
 document.querySelector('#year').textContent = new Date().getFullYear();

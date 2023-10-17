@@ -1,0 +1,48 @@
+:root {
+    --back: rgba(0, 0, 0, 1);
+    --back2: rgba(93, 87, 87, 1);
+    --border: rgba(165, 158, 158, 0.3);
+    --shadow: rgba(127, 119, 119, 0.5);
+    --zebra: rgb(212, 209, 209);
+    --fontcolor: rgba(255, 255, 255, 1);
+}
+
+table {
+    margin: 30px auto;
+    border: thin solid var(--border);
+    box-shadow: 0 0 10px var(--shadow);
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    font-size: .85rem;
+}
+
+tr:first-child th,
+.emptyCorner {
+    background-color: var(--back);
+    color: var(--fontcolor);
+    border: none;
+}
+
+th,
+td {
+    padding: 7px 15px;
+    border: 1px solid var(--border);
+}
+
+th {
+    background-color: var(--back2);
+    color: var(--fontcolor);
+    font-size: larger;
+}
+
+td {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra);
+}

@@ -1,0 +1,10 @@
+.record {
+    grid-column: 1 / span 2;
+}
+
+.record p {
+    text-align: center;
+    margin: 1rem;
+    font-weight: 700;
+    font-size: 1.50rem;
+}

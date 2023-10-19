@@ -64,21 +64,21 @@
                 <fieldset>
                     <legend>Applicant's Information</legend>
 
-                    <label class="top">First Name* <input type="text" id="fname" name="fname" required></label>
+                    <label class="top">First Name* <input type="text" name="fname" id="fname" required></label>
 
-                    <label class="top">Last Name* <input type="text" id="lname" name="lname" required></label>
+                    <label class="top">Last Name* <input type="text" name="lname" id="lname" required></label>
 
-                    <label class="top">Title or Position <input type="text" id="title" name="title"
+                    <label class="top">Title or Position <input type="text" name="title" id="title"
                             pattern="[A-Za-z\-\s]"
                             title="Please use letters, hyphens, and spaces only with a minimum of seven characters."></label>
 
-                    <label class="top">Email* <input type="email" id="email" name="email" required
+                    <label class="top">Email* <input type="email" name="email" id="email" required
                             placeholder="contact@company.com"></label>
 
-                    <label class="top">Mobile Phone Number* <input type="tel" id="phone" name="phone" required></label>
+                    <label class="top">Mobile Phone Number* <input type="tel" name="phone" id="phone" required></label>
 
-                    <label class="top">Business/Organization's Name* <input type="text" id="bname" name="bname"
-                            required></label>
+                    <label class="top">Business/Organization's Name* <input type="text" name="businessName"
+                            id="businessName" required></label>
                 </fieldset>
 
                 <fieldset>
@@ -101,8 +101,14 @@
                     <legend>Business/Organization's Description</legend>
 
                     <label class="top"><textarea name="description" id="description" cols="30"
-                            rows="10"></textarea></label>
+                            rows="10"></textarea>Please provide a short introduction to your Business or
+                        Organization</label>
+
+                    <label><input type="hidden" name="timestamp" id="timestamp"><span
+                            id="form-timestamp"></span></label>
                 </fieldset>
+
+                <input class="submitBtn" type="submit" value="Join Riga Chamber of Commerce">
             </form>
 
         </section>

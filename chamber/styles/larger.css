@@ -84,6 +84,12 @@
         box-shadow: 0 0 50px #333;
     }
 
+    /* join page */
+    .form {
+        grid-column: 1 / 2;
+        grid-row: 1;
+    }
+
     /* join page --> thank you msg page */
     .thankyou {
         grid-column: 1 / span 2;

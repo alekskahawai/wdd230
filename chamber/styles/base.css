@@ -275,6 +275,10 @@ div {
     list-style-type: circle;
 }
 
+form {
+    margin: 1rem;
+}
+
 form fieldset {
     margin: 2rem 0;
     border: 1px solid navy;
@@ -292,7 +296,7 @@ form label.top,
 form div {
     display: block;
     padding-top: 1rem;
-    color: rgb(181, 26, 26);
+    color: black;
     font-size: .8rem;
 }
 
@@ -315,9 +319,17 @@ form label.sbs {
     color: black;
 }
 
+#description {
+    padding: .5rem;
+}
+
+#form-timestamp {
+    display: none;
+}
+
 form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
+    background-color: blue;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;

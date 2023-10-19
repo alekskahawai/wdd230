@@ -56,7 +56,7 @@
         </ul>
     </nav>
     <main>
-        <section class="card events"> <!-- events -->
+        <section class="card form"> <!-- join form -->
             <h3>Membership Application Form</h3>
 
             <form method="get" action="thankyou.html">
@@ -69,7 +69,7 @@
                     <label class="top">Last Name* <input type="text" name="lname" id="lname" required></label>
 
                     <label class="top">Title or Position <input type="text" name="title" id="title"
-                            pattern="[A-Za-z\-\s]"
+                            pattern="[A-Za-z\-\s]{7,}"
                             title="Please use letters, hyphens, and spaces only with a minimum of seven characters."></label>
 
                     <label class="top">Email* <input type="email" name="email" id="email" required
@@ -84,25 +84,24 @@
                 <fieldset>
                     <legend>Select Membership Level</legend>
 
-                    <label class="sbs"><input type="radio" name="membership" value="gold">Gold
+                    <label class="sbs"><input type="radio" name="membership" value="gold"> Gold
                         Membership</label>
 
-                    <label class="sbs"><input type="radio" name="membership" value="silver">Silver
+                    <label class="sbs"><input type="radio" name="membership" value="silver"> Silver
                         Membership</label>
 
-                    <label class="sbs"><input type="radio" name="membership" value="bronze">Bronze
+                    <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze
                         Membership</label>
 
-                    <label class="sbs"><input type="radio" name="membership" value="non-profit">Non-profit
+                    <label class="sbs"><input type="radio" name="membership" value="non-profit"> Non-profit
                         Membership</label>
                 </fieldset>
 
                 <fieldset>
                     <legend>Business/Organization's Description</legend>
 
-                    <label class="top"><textarea name="description" id="description" cols="30"
-                            rows="10"></textarea>Please provide a short introduction to your Business or
-                        Organization</label>
+                    <label class="top"><textarea name="description" id="description" cols="28" rows="10"
+                            placeholder="Please provide a short introduction to your Business or Organization ..."></textarea></label>
 
                     <label><input type="hidden" name="timestamp" id="timestamp"><span
                             id="form-timestamp"></span></label>

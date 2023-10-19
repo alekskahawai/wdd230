@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aleksius De Vollèges - Webpage Rating Form</title>
+
     <!-- meta description & author -->
     <meta name="description"
         content="Aleksius De Vollèges - WDD 230 - Web Frontend Development BYU-Idaho student's course assignment Rating Form">
     <meta name="author" content="Aleksius De Vollèges">
+
     <!-- social media meta tags -->
     <meta property="og:title" content="Aleksius De Vollèges, Web Frontend Development course home page">
     <meta property="og:type" content="website">
@@ -18,13 +20,16 @@
     <meta property="og:url" content="https://alekskahawai.github.io/wdd230/">
     <meta property="og:description"
         content="Aleksius De Vollèges, Web Frontend Development, BYU-Idaho student's course assignment Rating Form.">
+
     <!-- favicon -->
     <link rel="icon" href="favicon.ico">
+
     <!-- css -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/form.css">
     <link rel="stylesheet" href="styles/larger.css">
+
     <!-- google fonts: Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,29 +54,41 @@
     </nav>
     <main>
         <section class="card form">
+
             <div id="form-message"></div>
+
             <h2>Rate the Webpage</h2>
+
             <form method="get" action="record.html">
+
                 <fieldset>
                     <legend>User Information</legend>
+
                     <label class="top">Username* <input type="text" id="username" name="username" required
                             placeholder="Please enter your username"></label>
+
                     <label class="top">Password* <input type="password" id="password" name="password" required
                             pattern="[A-Za-z0-9]{8,}" placeholder="Letters and numbers only. At least 8."></label>
+
                     <label class="top">Confirm Password* <input type="password" id="confirm-password"
                             name="confirm-password" required pattern="[A-Za-z0-9]{8,}"
                             placeholder="Confirm the password"></label>
+
                     <label class="top">Email* <input type="email" id="email" name="email" required
-                            title="Please enter a valid email address" placeholder="inbox@byui.edu"
-                            pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"></label>
+                            placeholder="inbox@byui.edu" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+                            title="Please enter a valid email address"></label>
                 </fieldset>
 
                 <fieldset>
                     <legend>Rating</legend>
+
                     <label for="rating">Select Page Rating</label>
+
                     <div id="rangevalue">1</div>
+
                     <input type="range" id="rating" name="rating" min="1" max="10" value="1" step="1"
                         list="rangevalues">
+
                     <datalist id="rangevalues">
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -90,10 +107,12 @@
             </form>
         </section>
     </main>
+
     <footer>
         <p>© <span id="year"></span> | Aleksius De Vollèges | Switzerland</p>
         <p> Last Modified: <span id="lastModified"></span></p>
     </footer>
+
     <script src="scripts/main.js"></script>
     <script src="scripts/form.js"></script>
 </body>

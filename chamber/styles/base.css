@@ -223,16 +223,20 @@ div {
 }
 
 /* discover page */
-.spotlights h3 {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    padding: 1rem;
-}
-
 .spotlights div {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     margin: .5rem;
+}
+
+#msg {
+    padding: 0;
+}
+
+.spotlights div h3 {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 1rem;
 }
 
 .places {
@@ -263,6 +267,11 @@ div {
     text-align: center;
     font-size: 1rem;
     font-weight: 700;
+}
+
+/* join page */
+.spotlights ul {
+    list-style-type: circle;
 }
 
 /* join page --> thankyou msg page */

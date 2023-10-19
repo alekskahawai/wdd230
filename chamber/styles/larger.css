@@ -83,17 +83,16 @@
     .places img:hover {
         box-shadow: 0 0 50px #333;
     }
-}
 
-/* join page --> thank you msg page */
-.thankyou {
-    grid-column: 1 / span 2;
-    padding: 2rem;
-}
+    /* join page --> thank you msg page */
+    .thankyou {
+        grid-column: 1 / span 2;
+    }
 
-.thankyou p {
-    text-align: center;
-    margin: 1rem;
-    font-weight: 700;
-    font-size: 1.50rem;
+    .thankyou p {
+        text-align: center;
+        margin: 1rem;
+        font-weight: 700;
+        font-size: 1.50rem;
+    }
 }

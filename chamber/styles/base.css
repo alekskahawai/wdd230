@@ -223,6 +223,17 @@ div {
 }
 
 /* discover page */
+.spotlights h3 {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.spotlights div {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: .5rem;
+}
 
 .places {
     display: grid;
@@ -254,11 +265,14 @@ div {
     font-weight: 700;
 }
 
-/* join page --> thank you msg page */
+/* join page --> thankyou msg page */
+.thankyou {
+    padding: 1.5rem;
+}
 
 .thankyou p {
     text-align: center;
-    /* margin: .5rem; */
-    font-weight: 100;
-    font-size: .5rem;
+    margin: .5rem;
+    font-weight: 400;
+    font-size: 1rem;
 }

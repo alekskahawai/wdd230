@@ -1,0 +1,18 @@
+{
+    "familyName": "Ulanbator",
+    "movedIn": "2021-12-31",
+    "numberPeople": "2",
+    "visited": true,
+    "members": [
+        {
+            "name": "Delurik",
+            "gender": "male",
+            "birthdate": "1975-12-22"
+        },
+        {
+            "name": "Meruler",
+            "gender": "female",
+            "birthdate": "1975-10-12"
+        }
+    ]
+}

@@ -267,3 +267,22 @@ iframe {
     font-weight: 900;
     font-size: larger;
 }
+
+/* weather api */
+.weather div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather p {
+    margin: .5rem;
+}
+
+.weather img {
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}

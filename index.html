@@ -99,10 +99,15 @@
                 <li>Week 06:</li>
             </ul>
         </section>
-        <section class="card">
+        <section class="card weather">
             <h3>Information</h3>
             <div>
-                <p>Placeholder</p>
+                <h4>Weather in Vollèges, Switzerland</h4>
+                <p><span id="current-temp"></span> - <span id="weather-desc"></span></p>
+                <picture>
+                    <img id="weather-icon" src="" alt="">
+                    <p><span id="current-temp"></span></p>
+                </picture>
             </div>
             <div>
                 <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
@@ -121,8 +126,10 @@
     <footer>
         <p>© <span id="year"></span> | Aleksius De Vollèges | Switzerland</p>
         <p> Last Modified: <span id="lastModified"></span></p>
+        <p>OpenWeatherMap.org | CC BY-SA 4.0</p>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/visits.js"></script>
 </body>
 

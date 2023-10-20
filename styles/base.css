@@ -286,3 +286,7 @@ iframe {
     margin: 0;
     padding: 0;
 }
+
+#time {
+    border: none;
+}

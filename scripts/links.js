@@ -1,4 +1,3 @@
-const baseURL = "https://alekskahawai.github.io/wdd230/";
 const linksURL = "https://alekskahawai.github.io/wdd230/data/links.json";
 
 const links = document.querySelector('#links');

@@ -1,0 +1,101 @@
+{
+    "weeks": [
+        {
+            "week": "Week 01",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "Layout"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "https://codepen.io/alekskahawai/pen/zYypWPR",
+                    "title": "Applied JavaScript"
+                }
+            ]
+        },
+        {
+            "week": "Week 02",
+            "links": [
+                {
+                    "url": "week02/design.html",
+                    "title": "Design Principles"
+                },
+                {
+                    "url": "https://codepen.io/alekskahawai/pen/ExGOVLG",
+                    "title": "JS: Responsive Navigation"
+                },
+                {
+                    "url": "week02/bom.html",
+                    "title": "JavaScript: DOM Manipulation"
+                }
+            ]
+        },
+        {
+            "week": "Week 03",
+            "links": [
+                {
+                    "url": "week03/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "Lazy Loading"
+                },
+                {
+                    "url": "week03/reponsive-images.html",
+                    "title": "Responsive Images"
+                },
+                {
+                    "url": "week03/bom.html",
+                    "title": "Local Storage Method"
+                }
+            ]
+        },
+        {
+            "week": "Week 04",
+            "links": [
+                {
+                    "url": "https://codepen.io/alekskahawai/pen/vYvqKGy",
+                    "title": "CSS Pseudo-Classes"
+                },
+                {
+                    "url": "week04/images/Screenshot-css-combinators.png",
+                    "title": "CSS Combinators"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "HTML Table"
+                },
+                {
+                    "url": "week04/form.html",
+                    "title": "HTML Form"
+                }
+            ]
+        },
+        {
+            "week": "Week 05",
+            "links": [
+                {
+                    "url": "https://codepen.io/alekskahawai/pen/WNPewNe?editors=1100",
+                    "title": "CSS Pseudo-element"
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON file"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Fetch API"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Consuming a Weather API"
+                }
+            ]
+        }
+    ]
+}

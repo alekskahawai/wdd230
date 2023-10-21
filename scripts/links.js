@@ -14,15 +14,13 @@ const displayLinks = (weeks) => {
     weeks.forEach((week) => {
         let li = document.createElement('li');
 
-        li.textContent = `${week.week}:`;
-
-        links.appendChild('li');
+        li.innerHTML = `${week.week}:`;
 
         week.links.forEach((link) => {
-            li.textContent += ` <a href="${link.url}">${link.title}</a> | `;
+            li.innerHTML += ` <a href="${link.url}">"${link.title}"</a>`;
         })
 
-
+        links.appendChild(li);
     })
 }
 

@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "Latvia Charity Bank",
+            "address": "Mildas 4-1, Riga, LV-1015, Latvia",
+            "phone": "+371 251-26-008",
+            "url": "http://latviacharitybank.org",
+            "img": "images/latvia-charity-bank.webp",
+            "alt": "Latvia Charity Bank Logo",
+            "membership": "Non Profit"
+        },
+        {
+            "name": "Around Latvia Tours",
+            "address": "Dzirnieku 16, Marupes novads, LV-2167, Latvia",
+            "phone": "+371 276-77-007",
+            "url": "https://www.aroundlatvia.com",
+            "img": "images/around-latvia-tours.webp",
+            "alt": "Around Latvia Tours Logo",
+            "membership": "Gold"
+        },
+        {
+            "name": "Astra Travel",
+            "address": "Maza Pils 5, Riga, LV-1050, Latvia",
+            "phone": "+371 223-03-459",
+            "url": "https://astrature.lv",
+            "img": "images/astra-travel.webp",
+            "alt": "Astra Travel Logo",
+            "membership": "Silver"
+        },
+        {
+            "name": "Rail Logistic",
+            "address": "Lubanas 82, Riga, LV-1021, Latvia",
+            "phone": "+371 296-72-793",
+            "url": "https://www.riallogistic.lv",
+            "img": "images/rial-logistic.webp",
+            "alt": "Rail Logistic Logo",
+            "membership": "Silver"
+        },
+        {
+            "name": "Dax Logistic",
+            "address": "Jaunmoku 34, Riga, LV-1046, Latvia",
+            "phone": "+371 672-98-420",
+            "url": "https://daxlogistic.com",
+            "img": "images/dax-logistic.webp",
+            "alt": "Dax Logistic Logo",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Lido Restaurants",
+            "address": "Krasta 76, Riga, LV-1019, Latvia",
+            "phone": "+371 677-00-000",
+            "url": "https://www.lido.lv",
+            "img": "images/lido.webp",
+            "alt": "Lido Restaurants Logo",
+            "membership": "Gold"
+        },
+        {
+            "name": "Eco Souvenir",
+            "address": "Skunu 19, Riga, LV-1050, Latvia",
+            "phone": "+371 258-81-514",
+            "url": "https://www.ecosouvenir.lv",
+            "img": "images/eco-souvenir.webp",
+            "alt": "Eco Souvenir Logo",
+            "membership": "Bronze"
+        }
+    ]
+}

@@ -427,7 +427,8 @@ form label.top input:required:valid {
     grid-column: 1 / 4;
 }
 
-#cards {
+
+.grid #cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     /* grid-template-rows: repeat(auto-fit, minmax(320px, 1fr)); */
@@ -446,13 +447,60 @@ form label.top input:required:valid {
     justify-content: center;
 }
 
-#cards h2 {
-    color: navy;
-}
-
 #cards img {
     width: 250px;
     height: auto;
     box-shadow: 0 0 30px #777;
     margin: .5rem;
 }
+
+.grid #cards section>* {
+    margin: 0.1rem;
+}
+
+#cards h2 {
+    color: navy;
+}
+
+.list #cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.list #cards section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+}
+
+.list #cards section>* {
+    margin: 0 1rem;
+}
+
+.list #cards section img {
+    display: none;
+    /* smaller viewports only */
+}
+
+.list #cards section h2 {
+    font-size: 1rem;
+}
+
+.list #cards section:nth-child(even) {
+    background-color: #bed;
+}
+
+#cards section h3 {
+    font-size: 1.5rem;
+}
+
+#cards section p {
+    font-weight: 600;
+    font-size: smaller;
+}
+
+/* #cards img {
+    height: 250px;
+    max-width: auto;
+} */

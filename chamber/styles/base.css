@@ -401,9 +401,9 @@ form label.top input:required:valid {
     border: none;
 }
 
-#cards section p {
-    font-weight: 400;
-    font-size: smaller;
+.grid #cards section p {
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .grid {
@@ -439,8 +439,8 @@ form label.top input:required:valid {
 }
 
 .list #cards section p {
-    font-weight: 400;
-    font-size: .75rem;
+    font-weight: 500;
+    font-size: 1rem;
     margin: .5rem;
 }
 

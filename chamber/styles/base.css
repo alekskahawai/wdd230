@@ -423,20 +423,6 @@ form label.top input:required:valid {
     font-size: 1rem;
 } */
 
-.grid {
-    grid-column: 1 / 4;
-}
-
-
-.grid #cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    /* grid-template-rows: repeat(auto-fit, minmax(320px, 1fr)); */
-    grid-gap: .5rem;
-    align-items: center;
-    margin-bottom: 3rem;
-}
-
 #cards section {
     margin: .5rem;
     border: 1px solid rgba(0, 0, 0, .1);
@@ -454,12 +440,37 @@ form label.top input:required:valid {
     margin: .5rem;
 }
 
-.grid #cards section>* {
-    margin: 0.1rem;
+/* #cards img {
+    height: 250px;
+    max-width: auto;
+} */
+
+#cards section h2 {
+    color: navy;
+    font-size: 1.2rem;
+    margin: 1.5rem;
 }
 
-#cards h2 {
-    color: navy;
+#cards section p {
+    font-weight: 600;
+    font-size: smaller;
+}
+
+.grid {
+    grid-column: 1 / 4;
+}
+
+.grid #cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    /* grid-template-rows: repeat(auto-fit, minmax(320px, 1fr)); */
+    grid-gap: .5rem;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.grid #cards section>* {
+    margin: 0.1rem;
 }
 
 .list {
@@ -494,17 +505,3 @@ form label.top input:required:valid {
 .list #cards section:nth-child(odd) {
     background-color: white;
 }
-
-#cards section h3 {
-    font-size: 1.5rem;
-}
-
-#cards section p {
-    font-weight: 600;
-    font-size: smaller;
-}
-
-/* #cards img {
-    height: 250px;
-    max-width: auto;
-} */

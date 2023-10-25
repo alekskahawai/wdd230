@@ -11,16 +11,12 @@ async function getMemberData() {
 const displayMembers = (members) => {
     members.forEach((member) => {
         let card = document.createElement('section');
-        let companyName = document.createElement('h2');
         let companyLogo = document.createElement('img');
+        let companyName = document.createElement('h2');
         let membershipLevel = document.createElement('p');
         let companyAddress = document.createElement('p');
         let companyTelephone = document.createElement('p');
         let companyWebsite = document.createElement('p');
-
-
-
-        companyName.textContent = `${member.name}`;
 
         companyLogo.setAttribute('src', member.img);
         companyLogo.setAttribute('alt', member.alt);
@@ -28,6 +24,7 @@ const displayMembers = (members) => {
         companyLogo.setAttribute('width', '400');
         companyLogo.setAttribute('height', '100');
 
+        companyName.textContent = `${member.name}`;
 
         membershipLevel.textContent = `Membership level: ${member.membership}`;
         companyAddress.textContent = member.address;
@@ -37,10 +34,10 @@ const displayMembers = (members) => {
         // Append the section(card) with the created elements
         card.appendChild(companyName);
         card.appendChild(companyLogo);
-        card.appendChild(membershipLevel);
         card.appendChild(companyAddress);
         card.appendChild(companyTelephone);
         card.appendChild(companyWebsite);
+        card.appendChild(membershipLevel);
 
         cards.appendChild(card);
     });

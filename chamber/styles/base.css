@@ -359,13 +359,13 @@ form label.top input:required:valid {
 }
 
 /* directory page */
-#cards {
+/* #cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: .5rem;
     align-items: center;
     margin-bottom: 3rem;
-}
+} */
 
 #cards section {
     margin: .5rem;

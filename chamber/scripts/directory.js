@@ -2,43 +2,44 @@ const url = 'https://alekskahawai.github.io/wdd230/chamber/data/members.json';
 
 const cards = document.querySelector('#cards');
 
-async function getProphetData() {
+async function getMemberData() {
     const response = await fetch(url);
     const data = await response.json();
-    // console.table(data.prophets);
-    displayProphets(data.members);
+    displayMembers(data.members);
 }
 
-const displayProphets = (prophets) => {
-    prophets.forEach((prophet) => {
+const displayMembers = (members) => {
+    members.forEach((member) => {
         let card = document.createElement('section');
-        let fullName = document.createElement('h2');
-        let birthDate = document.createElement('p');
-        let birthPlace = document.createElement('p');
-        let portrait = document.createElement('img');
+        let companyName = document.createElement('h2');
+        let companyLogo = document.createElement('img');
+        let membershipLevel = document.createElement('p');
+        let companyAddress = document.createElement('p');
+        let companyTelephone = document.createElement('p');
+        let companyWebsite = document.createElement('p');
 
-        // Build the h2 content out to show the prophet's full name
-        fullName.textContent = `${prophet.name}`;
+        // Build the h2 content out to show the member's full name
+        companyName.textContent = `${member.name}`;
 
-        // Build the image portrait by setting all the relevant attributes
-        portrait.setAttribute('src', prophet.img);
-        portrait.setAttribute('alt', `logo of ${prophet.name}`);
-        portrait.setAttribute('loading', 'lazy');
-        portrait.setAttribute('width', '340');
-        portrait.setAttribute('height', '440');
+        // Build the image companyLogo by setting all the relevant attributes
+        companyLogo.setAttribute('src', member.img);
+        companyLogo.setAttribute('alt', member.alt);
+        companyLogo.setAttribute('loading', 'lazy');
+        companyLogo.setAttribute('width', '400');
+        companyLogo.setAttribute('height', '100');
 
         // Build 2 paragraphs with birth details
-        birthDate.textContent = `Date of Birth: ${prophet.birthdate}`;
-        birthPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
+        membershipLevel.textContent = `Date of Birth: ${member.membershipLevel}`;
+        companyAddress.textContent = `Place of Birth: ${member.companyAddress}`;
 
         // Append the section(card) with the created elements
-        card.appendChild(fullName);
-        card.appendChild(birthDate);
-        card.appendChild(birthPlace);
-        card.appendChild(portrait);
+        card.appendChild(companyName);
+        card.appendChild(membershipLevel);
+        card.appendChild(companyAddress);
+        card.appendChild(companyLogo);
 
         cards.appendChild(card);
     });
 }
 
-getProphetData();
+getMemberData();

@@ -18,6 +18,8 @@ const displayMembers = (members) => {
         let companyTelephone = document.createElement('p');
         let companyWebsite = document.createElement('p');
 
+        
+
         companyName.textContent = `${member.name}`;
 
         companyLogo.setAttribute('src', member.img);

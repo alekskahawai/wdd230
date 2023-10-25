@@ -359,13 +359,6 @@ form label.top input:required:valid {
 }
 
 /* directory page */
-/* #cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: .5rem;
-    align-items: center;
-    margin-bottom: 3rem;
-} */
 
 .menu {
     grid-column: 1 / 4;
@@ -376,7 +369,7 @@ form label.top input:required:valid {
     text-align: right;
 }
 
-#cards section {
+/* #cards section {
     margin: .5rem;
     border: 1px solid rgba(0, 0, 0, .1);
     background-color: #eee;
@@ -401,4 +394,65 @@ form label.top input:required:valid {
     margin: .5rem;
     font-weight: 400;
     font-size: 1rem;
+} */
+
+/* .grid #cards section {
+    margin: .5rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid #cards h2 {
+    color: navy;
+}
+
+.grid #cards img {
+    width: 250px;
+    height: auto;
+    box-shadow: 0 0 30px #777;
+    margin: .5rem;
+}
+
+.grid #cards section p {
+    margin: .5rem;
+    font-weight: 400;
+    font-size: 1rem;
+} */
+
+.grid {
+    grid-column: 1 / 4;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    /* grid-template-rows: repeat(auto-fit, minmax(320px, 1fr)); */
+    grid-gap: .5rem;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+#cards section {
+    margin: .5rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cards h2 {
+    color: navy;
+}
+
+#cards img {
+    width: 250px;
+    height: auto;
+    box-shadow: 0 0 30px #777;
+    margin: .5rem;
 }

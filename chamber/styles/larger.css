@@ -101,4 +101,10 @@
         font-weight: 700;
         font-size: 1.50rem;
     }
+
+    /* directory page */
+    #cards section p {
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
 }

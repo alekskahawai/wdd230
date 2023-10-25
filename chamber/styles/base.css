@@ -388,7 +388,7 @@ form label.top input:required:valid {
     margin: .5rem;
 }
 
-#cards p {
+#cards section p {
     margin: .5rem;
     font-weight: 400;
     font-size: 1rem;

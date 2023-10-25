@@ -462,6 +462,10 @@ form label.top input:required:valid {
     color: navy;
 }
 
+.list {
+    grid-column: 1 / 4;
+}
+
 .list #cards {
     display: flex;
     flex-direction: column;
@@ -469,7 +473,7 @@ form label.top input:required:valid {
 
 .list #cards section {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
     margin: 0;
     padding: 0.25rem;
 }
@@ -487,8 +491,8 @@ form label.top input:required:valid {
     font-size: 1rem;
 }
 
-.list #cards section:nth-child(even) {
-    background-color: #bed;
+.list #cards section:nth-child(odd) {
+    background-color: white;
 }
 
 #cards section h3 {

@@ -357,3 +357,33 @@ form label.top input:required:valid {
     font-weight: 400;
     font-size: 1rem;
 }
+
+/* directory page */
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: .5rem;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+#cards section {
+    margin: .5rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cards h2 {
+    color: navy;
+}
+
+#cards img {
+    width: 250px;
+    height: auto;
+    box-shadow: 0 0 30px #777;
+    margin: .5rem;
+}

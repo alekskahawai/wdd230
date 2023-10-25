@@ -381,7 +381,7 @@ form label.top input:required:valid {
     width: 250px;
     height: auto;
     box-shadow: 0 0 30px #777;
-    margin: .5rem;
+    margin: 1rem;
 }
 
 /* #cards img {
@@ -436,6 +436,7 @@ form label.top input:required:valid {
 .list #cards section p {
     font-weight: 400;
     font-size: .75rem;
+    margin: .5rem;
 }
 
 .list #cards section:nth-child(odd) {

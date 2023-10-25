@@ -99,9 +99,9 @@
             </div>
         </section>
         <section class="card weather"> <!-- weather -->
-            <h3>Current Weather</h3>
+            <h3>Local Weather</h3>
             <div>
-                <h4>Riga, Latvia</h4>
+                <h4>Currently in Riga, Latvia</h4>
 
                 <p><span id="current-temp"></span> - <span id="weather-desc"></span></p>
 
@@ -109,12 +109,15 @@
                     <img id="weather-icon" src="https://openweathermap.org/img/wn/01d@2x.png"
                         alt="weather icon placeholder">
                 </picture>
-
-                <!-- <iframe id="time" src="https://free.timeanddate.com/clock/i92rexxr/n270/fn6/fs16/pa8/tt0/th1/ta1/tb4"
-                    width="252" height="54"></iframe> -->
             </div>
             <div>
-                <p>Placeholder</p>
+                <h4>Weather Forecast</h4>
+
+                <p><span id="forecast-1"></span></p>
+
+                <p><span id="forecast-2"></span></p>
+
+                <p><span id="forecast-3"></span></p>
             </div>
             <div>
                 <p>Placeholder</p>
@@ -133,7 +136,8 @@
         <p> Last Modified: <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/chamber.js"></script>
-    <script src="scripts/weather.js"></script>
+    <script src="scripts/current-weather.js"></script>
+    <script src="scripts/forecast-weather.js"></script>
 </body>
 
 </html>

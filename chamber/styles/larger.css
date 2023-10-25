@@ -109,13 +109,19 @@
         font-weight: 700;
     }
 
-    #cards section h3 {
-        font-size: 1.5rem;
+    .grid #cards section {
+        width: auto;
+        height: 400px;
     }
 
-    #cards section p {
+    .grid #cards section h3 {
+        font-size: 1.2rem;
+    }
+
+    .grid #cards section p {
         font-weight: 500;
         font-size: 1.2rem;
+        margin: .5rem;
     }
 
     .grid #cards {

@@ -103,14 +103,7 @@
     }
 
     /* directory page */
-    .menu {
-        grid-column: 1 / 4;
-        margin: 1rem auto;
-        /* border: 1px solid rgba(0, 0, 0, 0.1); */
-        padding: 0.5rem;
-        /* background-color: #bed; */
-        text-align: right;
-    }
+    
 
     .menu button {
         padding: 1rem;

@@ -4,13 +4,14 @@ const forecast3 = document.querySelector('#forecast-3');
 
 const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?lat=56.97&lon=24.10&appid=bd5c2931011c54c7ccaf7bdace44278d&units=metric'
 
-/* async function apiFetch() {
+async function apiFetch() {
     const response = await fetch(forecastURL);
     const data = await response.json();
     displayResults(data);
-} */
+    console.log(data);
+}
 
-async function apiFetch() {
+/* async function apiFetch() {
     try {
         const response = await fetch(forecastURL);
         if (response.ok) {
@@ -25,7 +26,7 @@ async function apiFetch() {
     catch (error) {
         console.log(error);
     }
-}
+} */
 
 function displayResults(data) {
 

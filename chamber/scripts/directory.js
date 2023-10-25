@@ -18,25 +18,27 @@ const displayMembers = (members) => {
         let companyTelephone = document.createElement('p');
         let companyWebsite = document.createElement('p');
 
-        // Build the h2 content out to show the member's full name
         companyName.textContent = `${member.name}`;
 
-        // Build the image companyLogo by setting all the relevant attributes
         companyLogo.setAttribute('src', member.img);
         companyLogo.setAttribute('alt', member.alt);
         companyLogo.setAttribute('loading', 'lazy');
         companyLogo.setAttribute('width', '400');
         companyLogo.setAttribute('height', '100');
 
-        // Build 2 paragraphs with birth details
-        membershipLevel.textContent = `Date of Birth: ${member.membershipLevel}`;
-        companyAddress.textContent = `Place of Birth: ${member.companyAddress}`;
+
+        membershipLevel.textContent = `Membership level: ${member.membership}`;
+        companyAddress.textContent = member.companyAddress;
+        companyTelephone.textContent = member.phone;
+        companyWebsite.textContent = member.url;
 
         // Append the section(card) with the created elements
         card.appendChild(companyName);
+        card.appendChild(companyLogo);
         card.appendChild(membershipLevel);
         card.appendChild(companyAddress);
-        card.appendChild(companyLogo);
+        card.appendChild(companyTelephone);
+        card.appendChild(companyWebsite);
 
         cards.appendChild(card);
     });

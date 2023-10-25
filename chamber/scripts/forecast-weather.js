@@ -30,9 +30,9 @@ async function forecastApiFetch() {
 
 function displayForecastResults(data) {
 
-    forecast1.innerHTML = `${data.list[0].dt_txt}: ${data.list[0].main.temp | 0}&deg;C`;
-    forecast2.innerHTML = `${data.list[10].dt_txt}: ${data.list[10].main.temp | 0}&deg;C`;
-    forecast3.innerHTML = `${data.list[20].dt_txt}: ${data.list[20].main.temp | 0}&deg;C`;
+    forecast1.innerHTML = `${data.list[0].dt_txt.slice(0, 10)}: ${data.list[0].main.temp | 0}&deg;C`;
+    forecast2.innerHTML = `${data.list[10].dt_txt.slice(0, 10)}: ${data.list[10].main.temp | 0}&deg;C`;
+    forecast3.innerHTML = `${data.list[20].dt_txt.slice(0, 10)}: ${data.list[20].main.temp | 0}&deg;C`;
 }
 /* function displayForecastResults(data) {
     currentTemp.innerHTML = `${data.main.temp | 0}&deg;C`;

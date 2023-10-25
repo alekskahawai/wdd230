@@ -395,21 +395,12 @@ form label.top input:required:valid {
 }
 
 #cards section p {
-    font-weight: 600;
+    font-weight: 400;
     font-size: smaller;
 }
 
 .grid {
     grid-column: 1 / 4;
-}
-
-.grid #cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    /* grid-template-rows: repeat(auto-fit, minmax(320px, 1fr)); */
-    grid-gap: .5rem;
-    align-items: center;
-    margin-bottom: 3rem;
 }
 
 .grid #cards section>* {
@@ -425,13 +416,6 @@ form label.top input:required:valid {
     flex-direction: column;
 }
 
-.list #cards section {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
-    margin: 0;
-    padding: 0.25rem;
-}
-
 .list #cards section>* {
     margin: 0 1rem;
 }
@@ -443,6 +427,11 @@ form label.top input:required:valid {
 
 .list #cards section h2 {
     font-size: 1rem;
+}
+
+.list #cards section p {
+    font-weight: 400;
+    font-size: .75rem;
 }
 
 .list #cards section:nth-child(odd) {

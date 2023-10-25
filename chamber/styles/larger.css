@@ -114,11 +114,23 @@
     }
 
     #cards section p {
-        font-weight: 700;
+        font-weight: 500;
         font-size: 1.2rem;
     }
 
-    
+    .grid #cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-gap: .5rem;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
 
+    .list #cards section {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        margin: 0;
+        padding: 0.25rem;
+    }
 
 }

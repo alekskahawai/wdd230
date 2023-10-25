@@ -12,7 +12,7 @@ const displayMembers = (members) => {
     members.forEach((member) => {
         let card = document.createElement('section');
         let companyLogo = document.createElement('img');
-        let companyName = document.createElement('h2');
+        let companyName = document.createElement('h3');
         let membershipLevel = document.createElement('p');
         let companyAddress = document.createElement('p');
         let companyTelephone = document.createElement('p');

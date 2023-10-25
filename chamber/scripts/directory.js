@@ -20,16 +20,16 @@ const displayProphets = (prophets) => {
         // Build the h2 content out to show the prophet's full name
         fullName.textContent = `${prophet.name}`;
 
-        // Build 2 paragraphs with birth details
-        birthDate.textContent = `Date of Birth: ${prophet.birthdate}`;
-        birthPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
-
         // Build the image portrait by setting all the relevant attributes
-        portrait.setAttribute('src', prophet.imageurl);
-        portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
+        portrait.setAttribute('src', prophet.img);
+        portrait.setAttribute('alt', `logo of ${prophet.name}`);
         portrait.setAttribute('loading', 'lazy');
         portrait.setAttribute('width', '340');
         portrait.setAttribute('height', '440');
+
+        // Build 2 paragraphs with birth details
+        birthDate.textContent = `Date of Birth: ${prophet.birthdate}`;
+        birthPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
 
         // Append the section(card) with the created elements
         card.appendChild(fullName);

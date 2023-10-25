@@ -363,65 +363,9 @@ form label.top input:required:valid {
 .menu {
     grid-column: 1 / 4;
     margin: 1rem auto;
-    /* border: 1px solid rgba(0, 0, 0, 0.1); */
     padding: 0.5rem;
-    /* background-color: #bed; */
     text-align: right;
 }
-
-/* #cards section {
-    margin: .5rem;
-    border: 1px solid rgba(0, 0, 0, .1);
-    background-color: #eee;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#cards h2 {
-    color: navy;
-}
-
-#cards img {
-    width: 250px;
-    height: auto;
-    box-shadow: 0 0 30px #777;
-    margin: .5rem;
-}
-
-#cards section p {
-    margin: .5rem;
-    font-weight: 400;
-    font-size: 1rem;
-} */
-
-/* .grid #cards section {
-    margin: .5rem;
-    border: 1px solid rgba(0, 0, 0, .1);
-    background-color: #eee;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.grid #cards h2 {
-    color: navy;
-}
-
-.grid #cards img {
-    width: 250px;
-    height: auto;
-    box-shadow: 0 0 30px #777;
-    margin: .5rem;
-}
-
-.grid #cards section p {
-    margin: .5rem;
-    font-weight: 400;
-    font-size: 1rem;
-} */
 
 #cards section {
     margin: .5rem;
@@ -448,7 +392,6 @@ form label.top input:required:valid {
 #cards section h2 {
     color: navy;
     font-size: 1.2rem;
-    margin: 1.5rem;
 }
 
 #cards section p {

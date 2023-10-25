@@ -377,7 +377,7 @@ form label.top input:required:valid {
     justify-content: center;
 }
 
-#cards img {
+.grid #cards section img {
     width: 250px;
     height: auto;
     box-shadow: 0 0 30px #777;

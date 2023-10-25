@@ -110,8 +110,9 @@
     }
 
     .grid #cards section {
+        text-align: center;
         width: auto;
-        height: 400px;
+        height: 410px;
     }
 
     .grid #cards section h3 {

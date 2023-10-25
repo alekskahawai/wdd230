@@ -28,7 +28,7 @@ const displayMembers = (members) => {
 
 
         membershipLevel.textContent = `Membership level: ${member.membership}`;
-        companyAddress.textContent = member.companyAddress;
+        companyAddress.textContent = member.address;
         companyTelephone.textContent = member.phone;
         companyWebsite.textContent = member.url;
 

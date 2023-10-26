@@ -21,8 +21,8 @@ const displayMembers = (members) => {
         companyLogo.setAttribute('src', member.img);
         companyLogo.setAttribute('alt', member.alt);
         companyLogo.setAttribute('loading', 'lazy');
-        companyLogo.setAttribute('width', '300');
-        companyLogo.setAttribute('height', '250');
+        companyLogo.setAttribute('width', '250');
+        companyLogo.setAttribute('height', 'auto');
 
         companyName.textContent = `${member.name}`;
 

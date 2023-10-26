@@ -429,7 +429,6 @@ form label.top input:required:valid {
 
 .list #cards section img {
     display: none;
-    /* smaller viewports only */
 }
 
 .list #cards section h3 {

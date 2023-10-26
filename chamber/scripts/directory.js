@@ -22,7 +22,7 @@ const displayMembers = (members) => {
         companyLogo.setAttribute('alt', member.alt);
         companyLogo.setAttribute('loading', 'lazy');
         companyLogo.setAttribute('width', '250');
-        companyLogo.setAttribute('height', 'auto');
+        companyLogo.setAttribute('height', '300');
 
         companyName.textContent = `${member.name}`;
 

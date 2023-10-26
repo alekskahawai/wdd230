@@ -1,6 +1,6 @@
-const currentTemp = document.querySelector('#current-temp');
-const weatherIcon = document.querySelector('#weather-icon');
-const captionDesc = document.querySelector('#weather-desc');
+const currentTemp = document.querySelector('.current-temp');
+const weatherIcon = document.querySelector('.weather-icon');
+const captionDesc = document.querySelector('.weather-desc');
 const url = 'https://api.openweathermap.org/data/2.5/weather?lat=56.97&lon=24.10&appid=bd5c2931011c54c7ccaf7bdace44278d&units=metric'
 
 async function apiFetch() {

@@ -8,14 +8,15 @@ async function forecastApiFetch() {
     const response = await fetch(forecastURL);
     const data = await response.json();
     displayForecastResults(data);
-
 }
 
 function displayForecastResults(data) {
 
-    forecast1.innerHTML = `${data.list[4].dt_txt.slice(0, 10)}:   ${data.list[4].main.temp | 0}&deg;C`;
-    forecast2.innerHTML = `${data.list[12].dt_txt.slice(0, 10)}:   ${data.list[12].main.temp | 0}&deg;C`;
-    forecast3.innerHTML = `${data.list[20].dt_txt.slice(0, 10)}:   ${data.list[20].main.temp | 0}&deg;C`;
+    forecast1.innerHTML = `${data.list[4].dt_txt.slice(0, 10)}: ${data.list[4].weather[0].main}   ${data.list[4].main.temp | 0}&deg;C`;
+
+    forecast2.innerHTML = `${data.list[12].dt_txt.slice(0, 10)}: ${data.list[12].weather[0].main}   ${data.list[12].main.temp | 0}&deg;C`;
+
+    forecast3.innerHTML = `${data.list[20].dt_txt.slice(0, 10)}: ${data.list[20].weather[0].main}   ${data.list[20].main.temp | 0}&deg;C`;
 }
 /* function displayForecastResults(data) {
     currentTemp.innerHTML = `${data.main.temp | 0}&deg;C`;

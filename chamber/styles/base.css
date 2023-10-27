@@ -446,3 +446,38 @@ form label.top input:required:valid {
 .list #cards section:nth-child(odd) {
     background-color: white;
 }
+
+/* home page --> spotlights */
+#members-adds section {
+    margin: .5rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#members-adds section img {
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 30px #777;
+    margin: 1rem;
+}
+
+/* #members-adds img {
+    height: 250px;
+    max-width: auto;
+} */
+
+#members-adds section h3 {
+    color: navy;
+    font-size: 1.2rem;
+    background-color: #eee;
+    border: none;
+}
+
+#members-adds section p {
+    font-weight: 500;
+    font-size: 1rem;
+}

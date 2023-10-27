@@ -2,21 +2,30 @@ const urlJSON = 'https://alekskahawai.github.io/wdd230/chamber/data/members.json
 
 const membersAdds = document.querySelector('#members-adds');
 
+var data = {};
+
 async function getMemberData() {
     const response = await fetch(urlJSON);
-    const data = await response.json();
-    displayMembers(data.members);
+    data = await response.json();
 }
 
-const displayMembers = (members) => {
-    members.forEach((member) => {
-        let card = document.createElement('section');
-        let companyLogo = document.createElement('img');
-        let companyName = document.createElement('h3');
-        let membershipLevel = document.createElement('p');
-        let companyAddress = document.createElement('p');
-        let companyTelephone = document.createElement('p');
-        let companyWebsite = document.createElement('p');
+const displayMembersAdds = async () => {
+    await getMemberData();
+
+    data.members = data.members.filter(member => member.membership == "Gold" || member.membership == "Silver");
+
+    // source: https://stackoverflow.com/questions/19269545/how-to-get-a-number-of-random-elements-from-an-array
+    data.members = data.members.sort(() => .5 - Math.random()).slice(0, 2);
+
+    data.members.forEach(member => {
+
+        const card = document.createElement('section');
+        const companyLogo = document.createElement('img');
+        const companyName = document.createElement('h3');
+        const membershipLevel = document.createElement('p');
+        const companyAddress = document.createElement('p');
+        const companyTelephone = document.createElement('p');
+        const companyWebsite = document.createElement('p');
 
         companyLogo.setAttribute('src', member.img);
         companyLogo.setAttribute('alt', member.alt);
@@ -43,4 +52,5 @@ const displayMembers = (members) => {
     });
 }
 
-getMemberData();
+displayMembersAdds();
+//getMemberData();

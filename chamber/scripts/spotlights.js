@@ -21,7 +21,7 @@ const displayMembersAdds = async () => {
 
         const card = document.createElement('section');
         const companyLogo = document.createElement('img');
-        const companyName = document.createElement('h3');
+        const companyName = document.createElement('h4');
         const membershipLevel = document.createElement('p');
         const companyAddress = document.createElement('p');
         const companyTelephone = document.createElement('p');

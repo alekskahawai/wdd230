@@ -480,3 +480,7 @@ form label.top input:required:valid {
     text-align: center;
     margin: .5rem;
 }
+
+#forecast p {
+    margin: .5rem;
+}

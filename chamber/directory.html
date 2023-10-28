@@ -34,8 +34,15 @@
         <h1>Riga Chamber of Commerce</h1>
         <img src="images/logo.webp" alt="chamber of commerce logo, blue dots arouns a gloab" width="72">
         <div class="hero">
-            <img src="images/riga-chamber-home-banner.webp"
-                alt="panoramic view of Riga Old Town and bridge across the river Daugava">
+            <picture>
+                <source srcset="images/hero-small-400-133.webp" media="(max-width: 400px)">
+
+                <source srcset="images/hero-medium-600-199.webp" media="(max-width: 600px)">
+
+                <img src="images/hero-large-800-267.webp"
+                    alt="panoramic view of Riga Old Town and bridge across the river Daugava" width="800" height="267">
+            </picture>
+
             <article class="call-to-action">
                 <button onclick="window.location.href='join.html';">Join</button>
                 <h4>Build business together</h4>
